@@ -1,0 +1,10 @@
+.DS_Store
+
+*build*/
+*.x
+*.ini
+*.x.*
+.vscode/
+.vs/
+.idea/
+out/
