@@ -82,11 +82,6 @@ int main(int argc, char** argv) {
   
 }
 
-void loadModel(const std::string& filename){
-    std::string text=std::format("Loading Model: {}",filename);
-    std::println("{}",text);
-}
-
 /**
  * Performs actions based on input performed on the GLFWwindow object
  * @param window GLFWwindow object
