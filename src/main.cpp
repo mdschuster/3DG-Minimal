@@ -18,7 +18,6 @@
 //prototypes
 void processInput(GLFWwindow *window);
 GLFWwindow* createWindow();
-void loadModel(const std::string& filename);
 
 int main(int argc, char** argv) {
     //!Initialization
