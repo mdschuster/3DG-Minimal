@@ -28,8 +28,11 @@ set(GLM_ENABLE_CXX_20 "ON")
 add_subdirectory(external/glm)
 set_target_properties(glm PROPERTIES FOLDER "Dependencies")
 
+#imgui
+add_subdirectory(external/imgui)
+set_target_properties(imgui PROPERTIES FOLDER "Dependencies")
+
 #
 # Projects
 #
 add_subdirectory(src)
-add_subdirectory(external/imgui)
